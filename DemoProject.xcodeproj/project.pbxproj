@@ -77,6 +77,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3219A2572C663181008C2A85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32CE315A2C64FDB10077E035 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3219A2582C66318B008C2A85 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				322EB3652C6507650022A763 /* HomeVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3219A2592C663195008C2A85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32CE31822C64FF9B0077E035 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		32CE314C2C64FDB00077E035 = {
 			isa = PBXGroup;
 			children = (
@@ -100,12 +124,12 @@
 		32CE31572C64FDB10077E035 /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
+				3219A2592C663195008C2A85 /* Model */,
+				3219A2572C663181008C2A85 /* View */,
+				3219A2582C66318B008C2A85 /* ViewModel */,
 				32CE31582C64FDB10077E035 /* DemoProjectApp.swift */,
-				32CE315A2C64FDB10077E035 /* HomeView.swift */,
 				32CE315C2C64FDB50077E035 /* Assets.xcassets */,
 				32CE315E2C64FDB50077E035 /* Preview Content */,
-				32CE31822C64FF9B0077E035 /* DataModel.swift */,
-				322EB3652C6507650022A763 /* HomeVM.swift */,
 			);
 			path = DemoProject;
 			sourceTree = "<group>";
